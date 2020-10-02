@@ -32,7 +32,9 @@
                 android:id="@+id/titleTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
                 android:layout_marginBottom="8dp"
                 android:ellipsize="marquee"
                 android:singleLine="true"
@@ -48,7 +50,9 @@
                 android:id="@+id/singerTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
                 android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp"
                 android:layout_marginBottom="4dp"
                 android:ellipsize="marquee"
                 android:singleLine="true"
@@ -111,9 +115,9 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
-                app:singleSelection="true"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toTopOf="parent"
+                app:singleSelection="true">
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/toggleLyricButton"
