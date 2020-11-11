@@ -5,5 +5,6 @@
 
 ## 사용 라이브러리
 - Jetpack
+- Exoplayer
 - Retrofit
 - Glide
